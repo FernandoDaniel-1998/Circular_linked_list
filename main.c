@@ -1,10 +1,7 @@
-/* Fernando Daniel Marcelino RA 156490 Turma IB */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-// DECLARACAO DE ESTRUTURAS E FUNCOES
 
 typedef struct lista{
   char info;
@@ -21,7 +18,6 @@ int busca(Pointer lista,char substring[], int num_elementos);
 
 int main(void) {
 
-    // DECLARACAO DE VARIAVEIS
   int tamanho, contador;
   int contador_menor = 0;
   int ciclicas = 0;
